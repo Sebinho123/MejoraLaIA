@@ -60,7 +60,7 @@ def tablero_lleno(tablero):
 import random
 
 def evaluar_movimiento(tablero, fila, columna, jugador):
-    """Evaluates a potential move for the given player."""
+  
     oponente = "X" if jugador == "O" else "O"
 
 
